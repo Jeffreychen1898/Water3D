@@ -17,6 +17,7 @@ int main()
 	Renderer::Window window;
 	window.addEvents(windowEvents);
 	window.init(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE);
+	window.setVSync(true);
 
 	// initialize the renderer
 	Renderer::Render renderer;
