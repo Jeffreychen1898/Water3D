@@ -1,4 +1,4 @@
-PROJ_NAME := TerrainGen
+PROJ_NAME := WaterRender
 
 CXX := g++
 CXX_FLAGS := -Ideps -std=c++17
