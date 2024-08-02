@@ -21,7 +21,7 @@ run: $(PROJ_NAME)
 
 .PHONY: clean
 clean:
-	rm -rf obj $(PROJ_NAME)
+	rm -rf obj $(PROJ_NAME) *.exe /obj
 
 $(OBJ_FILES) : ./obj/%.o : ./src/%.cpp | create_obj_folder
 	mkdir -p $(dir $@)
